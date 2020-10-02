@@ -24,13 +24,13 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit Telephony packages
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit language packages
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+# $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit 64bit support
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+# $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -70,4 +70,4 @@ PRODUCT_NAME := omni_lancelot
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Xiaomi Redmi 9
 PRODUCT_MANUFACTURER := xiaomi
-PRODUCT_RELEASE_NAME := Xiaomi Redmi 9
+PRODUCT_RELEASE_NAME := lancelot
